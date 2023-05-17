@@ -1,4 +1,3 @@
-// this is our calculator
 class Calculator {
   constructor() {
     this.calculatorResult = 0;
