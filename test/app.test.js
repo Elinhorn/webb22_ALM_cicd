@@ -14,6 +14,6 @@ describe('GET /', () => {
   it('Testing multy route', async () => {
     const response = await request(app).get('/calc/multy/2&3');
 
-    expect(response.status).to.equal(200);
+    expect(response.status).to.equal(300);
   });
 });
